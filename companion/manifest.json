@@ -1,0 +1,35 @@
+{
+    "id": "generic-bitmask-dimmer",
+    "name": "generic-bitmask-dimmer",
+    "shortname": "bitmask-dimmer",
+    "description": "Bitmask based calculation for generic Streaming ACN (E1.31) module for Companion",
+    "version": "0.0.0",
+    "license": "MIT",
+    "repository": "git+https://github.com/bitfocus/companion-module-generic-sacn.git",
+    "bugs": "https://github.com/bitfocus/companion-module-generic-sacn/issues",
+    "maintainers": [
+        {
+            "name": "Jonathan Vogt",
+            "email": "code@v-o-g-t.net"
+        }
+    ],
+    "legacyIds": [
+    ],
+    "runtime": {
+        "type": "node18",
+        "api": "nodejs-ipc",
+        "apiVersion": "0.0.0",
+        "entrypoint": "../main.js"
+    },
+    "manufacturer": "Generic",
+    "products": [
+        "Bitmask Dimmer"
+    ],
+    "keywords": [
+        "Protocol",
+        "Lighting",
+        "Generic",
+        "Net3",
+        "SACN"
+    ]
+}
